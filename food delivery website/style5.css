@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+nav li ul img {
+   width: 50px;
+   height: 50px;
+   list-style-type: none;
+}
+
+nav li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 10px;
+}
+
+.img1{
+    width: 167px;
+    height: 93px;
+    margin: 0px 150px;
+}
+
+.img2{
+    margin: 32px 190px 0px 190px; 
+} */
+
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.img1{
+    width: 167px;
+    height: 80px;
+    padding: 0px;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+} 
+
+.logohead{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:space-around;
+    gap: 295px;
+    align-items: center;
+    padding: 10px;
+    z-index: 50;
+}
+nav{
+    /* position:sticky;
+    top: 0; */
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+/* .sect1{
+    position: sticky;
+    top: 0;
+} */
+
+.belownav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin: 50px 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont1{
+    border: 2px solid #fff;
+    background-color: #149f39;
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cont2 {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.cont3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.btn{
+    border: 2px solid #fff;
+    width: 100px;
+    height: 35px;
+    background-color: rgba(255, 166, 0, 0.922);
+    color: black;
+}
+
+.coupens{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center; 
+    /* box-shadow: 1px 0px 0px 0px; */
+    margin: 40px 0px;
+}
+
+.discount,.fresh,.delivery{
+    display: flex;
+    flex-direction: row;
+    max-width: 303px;
+}
+
+.content1,.content2,.content3{
+    padding: 0px 3px 2px 0px;
+}
+
+.c2,.c22,.c32{
+    font-family: "Roboto",sans-serif;
+}
+
+.discount img{
+    height: 71px;
+}
+
+.break{
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.menu,.menu2{
+    display: flex;
+    justify-content: center;
+    margin: 52px;
+}
+
+.menucon{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 80px;
+    height: 20px;
+    padding: 6px;
+    background-color: #149f39;
+    color: #fff;
+}
+
+.menucon2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 8px;
+    padding-left: 30px;
+}
+
+.grid_images{
+    display: grid;
+    grid-template-areas: "I1 I1 I2 I3"
+                         "I1 I1 I2 I7"
+                         "I4 I5 I6 I7";
+  gap: 8px;
+}
+.gi1{
+  grid-area: I1;
+  /* border-radius: 10px; */
+}
+.gi2{
+    grid-area: I2;
+}
+.gi3{
+    grid-area: I3;
+}
+.gi4{
+    grid-area: I4;
+    width: 282px;
+}
+.gi5{
+    grid-area: I5;
+    width: 285px;
+}
+.gi6{
+    grid-area: I6;
+}
+.gi7{
+    grid-area: I7;
+}
+
+.common img{
+    border-radius:6px ;
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: last baseline baseline;
+    background-color: rgb(255, 240, 219);
+    padding: 14px 108px;
+    margin-top: 30px;
+}
+
+.footer_img{
+    position: relative;
+    /* top: 6px; */
+}
+
+.fc2,.fc3,.fc4
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    justify-content:top;
+}
+
+.links , .sup2 , .sup3
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+
+}
+
+h4{
+    padding: 14px 0px;
+    color: #6c6969f0;
+    font-size: 19px;
+    font-family: "Roboto",sans-serif;
+    font-weight: bolder;
+}
+
+#email{
+    height: 26px;
+    width: 250px;
+    /* padding: px; */
+}
+
+::placeholder{
+    padding: 35px;
+    font-size: 14px;
+    text-align:left;
+}
+
+.sup3{
+    gap: 10px;
+}
+
+.logo1
+{
+    width: 200px;
+    color:rgb(255, 240, 219) ;
+    height: 60px;
+}
